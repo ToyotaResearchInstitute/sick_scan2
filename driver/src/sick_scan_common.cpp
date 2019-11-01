@@ -248,7 +248,7 @@ namespace sick_scan
 
 			cfg.min_ang = min_angle;
 			cfg.max_ang = max_angle;
-			cfg.frame_id = "laser";
+			cfg.frame_id = "laser_rear";
 			cfg.skip = 0;
 			update_config(cfg);
 		}
